@@ -1,0 +1,20 @@
+{
+  "name": "vanilla-front",
+  "version": "1.0.0",
+  "description": "A frontend development environment for typescript without any framework",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode production",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "Noam Yadgar",
+  "license": "MIT",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.3",
+    "ts-loader": "^9.4.4",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
